@@ -1,0 +1,100 @@
+
+.contain{
+    margin-top: 21px;
+    background-color: #ededed;
+    position: relative;
+}
+
+.connect{
+    width: 67%;
+    /*margin-left: auto;
+    margin-right: auto;*/
+    height: 80px;
+    margin-left: 300px;
+    background-color: #ffffff;
+    position: absolute;
+    top: 10px;
+}
+
+.connexion{
+    width: 67%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+.connexion .reseau, .connexion .formulaire{
+    margin-top: 110px;
+    margin-bottom: 35px;
+    height: 300px;
+}
+
+.connexion .reseau{
+    width: 700px;
+    background-color: #ffffff;
+}
+
+.reseau h4{
+    margin: 20px;
+}
+
+.reseau p{
+    width: 100%;
+    font-size: 13px;
+    margin: 20px;
+}
+
+.reseau button{
+    width: 200px;
+    margin: 15px;
+    background-color: #009ae4;
+}
+
+.reseau .blue-clair{
+    background-color: #4659b3;
+}
+
+.reseau .blue{
+    background-color: #0074b8;
+}
+
+.reseau .red{
+    background-color: #eb062e;
+}
+
+.reseau button a{
+    color: #ffffff;
+}
+
+.connexion .formulaire{
+    width: 500px;
+    background-color: #ffffff;
+}
+
+.connect h3{
+    margin-top: 30px;
+    margin-left: 15px;
+}
+
+.formulaire form .btn{
+    width: 410px;
+    background-color: #009ae4;
+}
+
+.formulaire form .input, p, label[for="check"]{
+    width: 400px;
+    margin-left: 15px;
+}
+
+.lien{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+}
+
+.lien a{
+    color: #000000;
+}

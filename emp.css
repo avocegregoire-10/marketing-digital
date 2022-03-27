@@ -1,0 +1,48 @@
+
+.carriere .nav-item a[aria-current="page"]{
+    border-bottom: 0px;
+    color: #111;
+}
+
+.carriere .nav-item .lettre{
+    border-bottom: 3px solid #009ae4;
+    color: #009ae4;
+}
+
+.content{
+    width: 100%;
+    height: 400px;
+}
+
+.lettre-motivation, .modification{
+    width: 65%;
+    height: 120px;
+    margin: 2px;
+    margin-left: 240px;
+    /*margin-right: auto;*/
+    background-color: #ffffff;
+}
+
+.lettre-motivation{
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.lettre-motivation h5, .modification p{
+    margin-left: 16px;
+}
+
+.lettre-motivation .btn{
+    background-color: #009ae4;
+}
+
+.modification > p{
+    padding-top: 15px;
+}
+
+.modification h5{
+    text-align: center;
+}
+

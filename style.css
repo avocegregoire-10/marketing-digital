@@ -1,0 +1,296 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: 100%;
+    font-size: 14px;
+    position: relative;
+}
+
+a{
+    text-decoration: none;
+}
+
+li{
+    list-style-type: none;
+}
+
+.header .logo-connexion{
+    margin: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-connexion img{
+    margin-left: 250px;
+}
+
+.logo-connexion > .nav{
+    display: flex;
+    align-items: center;
+    margin-right: 400px;
+}
+
+.logo-connexion > .nav > .nav-link, i, .btn{
+    margin: 10px;
+}
+
+.nav > .nav-item > a:first-child{
+    color: #333;
+}
+
+.nav > .nav-item > a:hover{
+    color: #009ae4;
+}
+
+.logo-connexion > .nav i{
+    color: #333;
+}
+
+.logo-connexion > .nav i:hover{
+    color: #009ae4;
+}
+
+.nav > .btn{
+    background-color: #009ae4;
+}
+
+.nav > .btn > a{
+    color: #fff;
+}
+
+.nav-item > .dropdown-menu > li > a:hover{
+    background-color: #009ae4;
+    color: #fff;
+}
+
+.menus{
+    background-color: #ededed;
+    /*position: fixed;
+    top: 0;
+    z-index: 1000;*/
+}
+
+.menus nav:first-child{
+    width: 85%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-left: 230px;
+}
+
+.menus i[class$="fa-home"]{
+    color: #333;
+}
+
+.info-pays{
+    display: flex;
+    /*justify-content: center;*/
+    align-items: center;
+    margin-left: 73px;
+}
+
+.info-pays > .dropdown-menu > li{
+    display: flex;
+    align-items: center;
+    margin: 10px;
+}
+
+.info-pays a[role="button"]{
+    color: #333;
+}
+
+
+.info-pays a[class="espace-recruteur"]{
+    color: #fff;
+    background-color: #999;
+    width: 180px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    padding-left: 15px;
+}
+
+.carriere{
+    width: 100%;
+    /*position: fixed;
+    top: 50px;
+    z-index: 2000;*/
+}
+
+.carriere > .nav{
+    margin-left: 230px;
+}
+
+.carriere .nav-item a[aria-current="page"]{
+    border-bottom: 3px solid #009ae4;
+    color: #009ae4;
+}
+
+.carriere .nav-item:hover{
+    border-bottom: 3px solid #009ae4;
+}
+
+.sticty{
+    position: sticky;
+    top: 15px;
+}
+
+.content{
+    width: 100%;
+    height: 100%;
+    margin-top: 15px;
+    background-color: #ededed;
+    box-shadow: 1px -5px #ededed;
+    position: relative;
+}
+
+.bloc-content{
+    width: 45%;
+    height: 100%;
+    margin-left: 300px;
+    margin-bottom: 15px;
+    padding-top: 15px;
+    padding-bottom: 5px;
+    background-color: #ffffff;
+    box-shadow: 1px 10px 3px #ededed;
+}
+
+.title{
+    margin: 25px;
+    color: #949398;
+}
+
+.image{
+    display: flex;
+    justify-content: center;
+}
+
+.image img{
+    width: 100%;
+}
+
+.bloc-content p{
+    margin: 25px;
+    text-align: justify;
+    color: #949398;
+}
+
+.bloc-content p:last-child{
+    margin-bottom: 25px;
+}
+
+.bloc-content p a{
+    color: #720aff;
+}
+
+.inscription{
+    width: 400px;
+    height: 250px;
+    position: absolute;
+    top: 18px;
+    right: 300px;
+    padding: 25px;
+    background-color: #ffffff;
+}
+
+.inscription i[class$="k-square"]{
+    color: #9d9d9d;
+    font-size: 3rem;
+}
+
+.inscription i[class$="-linkedin"]{
+    color: #00b1d8;
+    font-size: 3rem;
+}
+
+.inscription i[class$="s-square"]{
+    color: #ff0006;
+    font-size: 3rem;
+}
+
+.inscription a{
+    margin-left: 30px;
+}
+
+.footer{
+    background-color: #b9b9b9;
+}
+
+.footer .section{
+    width: 65%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.section .article{
+  width: 20%;
+  margin: 20px;
+}
+
+.section .article-1{
+    width: 40%;
+}
+
+.section .article-1 img{
+    margin-top: 25px;
+    margin-bottom: 15px;
+    color: #f6f6f6;
+}
+
+.section .article-2{
+    margin-top: -10px;
+}
+
+.section .article-3, .section .article-5{
+    margin-top: -70px;
+}
+
+.section .article-4{
+    margin-top: -20px;
+}
+
+.section .article p, a{
+    color: #f6f6f6;
+}
+
+.section .article a{
+    display: block;
+    justify-content: center;
+    align-items: center;
+}
+
+hr{
+    width: 65%;
+    color: #ffffff;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.footer .contact{
+    width: 60%;
+    display: flex;
+    align-items: center;
+    position: relative;
+    color: #ffffff;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.footer .contact .info{
+   position: absolute;
+   right: 65px;
+}
+
+
+
+
+
+

@@ -1,0 +1,64 @@
+
+
+.carriere .nav-item a[aria-current="page"]{
+    border-bottom: 0px;
+    color: #111;
+}
+
+.carriere .nav-item .candidature{
+    border-bottom: 3px solid #009ae4;
+    color: #009ae4;
+}
+
+.content{
+    width: 100%;
+    height: 400px;
+}
+
+.lettre-motivation, .modification{
+    width: 75%;
+    height: 120px;
+    margin: 2px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #ffffff;
+}
+
+.lettre-motivation{
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.modification{
+   height: 150px;
+}
+
+.lettre-motivation h5, .modification p{
+    margin-left: 16px;
+}
+
+.modification > p{
+    padding-top: 15px;
+}
+
+.modification .check{
+    width: 97%;
+    height: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    position: relative;
+}
+
+.modification .check label[for="choose-page"]{
+    
+}
+
+.modification .check select{
+    margin: 16px;
+}

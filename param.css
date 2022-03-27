@@ -1,0 +1,42 @@
+
+.content{
+    height: 500px;
+}
+
+.section-param{
+    width: 65%;
+    background-color: #ffffff;
+    margin-left: 230px;
+    /*margin-right: auto;*/
+}
+
+.param{
+    border-bottom: 1px solid #999999;   
+}
+
+.param h2{
+    padding: 15px;
+    color: #777777;
+}
+
+.addr-mail h3, .preference h3, p, .initialiser h3{
+    color: #777777;
+}
+
+.addr-mail, .preference{
+    margin: 35px;
+    border-bottom: 1px solid #999999; 
+}
+
+.initialiser{
+    margin: 35px;
+}
+
+.add-delete{
+    display: flex;
+    justify-content: space-between;
+}
+
+/*.preference{
+    border-bottom: 1px solid #999999;
+}*/
